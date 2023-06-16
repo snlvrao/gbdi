@@ -1,0 +1,3 @@
+ulimit -s unlimited
+g++ -lm global_base_table.cpp huffman_encoder.cpp main.cpp -o gbdi
+./gbdi /loc_to_memory_dump 28
